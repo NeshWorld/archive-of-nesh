@@ -1,0 +1,122 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(180deg, #010b27, #292929);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar {
+    position: fixed;
+    padding: 15px 15px 15px 15px;
+    margin: 10px 10px 10px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-radius : 5px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 1px 12px rgba(0, 0, 0, 0.25);
+}
+ul.navbar-choice {
+    font-size: 20px;
+    list-style: none;
+    margin: 0;
+}
+ul li.menu-choice {
+
+}
+#logo-dragon {
+    margin: auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40em; /*ratio 3/3*/
+    width: 26em; /*ratio 2/3 environ, pour éviter de déformer le logo*/
+}
+h1 {
+    color: #f9f3f2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#links-buttons{
+    height: 100px;
+}
+#links-button {
+
+}
+ul.links-buttons{
+    color: #f9f3f2;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+ul li.links-buttons {
+    cursor: pointer;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*
+Créer une animation de deux touffes de poils derrière le carré.
+Objectif : apparition au survol + léger mouvement gauche/droite
+comme des poils soufflés par le vent.
+À refaire lorsque je maîtriserai mieux les animations et le positionnement.
+*/
+ul li.links-buttons::before{
+    content: '';
+    position: absolute;
+    height: 0;
+    width: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 100px solid #b5976f;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+ul li.links-buttons::after {
+    content: '';
+    position: absolute;
+    background: #ffffff;
+    border-radius: 10px ;
+    height: 70px;
+    width: 70px;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+ul li:hover::before {
+    transform: rotate(-20deg);
+    transition: 0.2s;
+}
+ul li a {
+    position: relative;
+    text-decoration: none;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ul li a i {
+    font-size: 4em;
+    color: #000000;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+div.text-test {
+    margin: 50px 15px 15px 15px;
+}
+p {
+    margin : 15px 15px 15px 15px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

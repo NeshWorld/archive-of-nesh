@@ -1,0 +1,208 @@
+@font-face{
+    font-family: Boycott;
+    src: url("../fonts/BOYCOTT_.ttf");
+}
+
+#top{
+    display:flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a {
+    display: block;
+}
+
+#search_bar{               /*Barre de recherche du site*/
+    width: 30ch;
+
+}
+
+#search_bar input{
+    width: 150px;
+    font-family: Arial, sans-serif;
+}
+
+#accueil{
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-size: 100px;
+    font-family: "BOYCOTT_", serif;
+}
+h2{
+    color: white;
+    font-size: 50px;
+}
+p{
+    color: white;
+    font-family: "Minion Pro", serif;
+}
+body{
+    background-image: linear-gradient(180deg, #c7938b, #dd8050, #10003c);
+    background-size: cover;
+}
+
+.spell-list{
+    border: 1px solid white;
+    padding: 20px;
+    margin: 20px;
+}
+
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body.page_2{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(30deg, #182c51, #09101c);
+    overflow: hidden;
+}
+.moon{
+    background-image: linear-gradient(30deg, #13223f, #0e1a30);
+    width: 256px;
+    height: 256px;
+    position: relative;
+    border-radius: 50%;
+}
+.moon::before{
+    content: '';
+    position: absolute;
+    background: #c7938b;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    animation: crescent 3.2s linear infinite alternate; /*Supprimer les mots clefs pour voir ce que ça fait !*/
+    z-index: -1;
+}
+@keyframes crescent {
+    0%{transform: translate(-30px, 30px) scale(0.9);
+        box-shadow: none;}
+
+    50%{transform: translate(0,0) scale(1.02);
+        box-shadow: 0 0 10px #f9f3f2, 0 0 80px 8px #c7938b;
+        background: #efdbd8;}
+
+    100%{transform: translate(30px, -30px) scale(0.9);
+        box-shadow: none;
+    }
+}
+
+/*Pour la page avec les boutons des dragons*/
+:root{
+    --bg: #222;
+    --clr: #fff;
+}
+
+body.dragons_page{
+    background-image: linear-gradient(100deg, #ffffff);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--bg);
+}
+ul {
+    position: relative;
+    display: flex;
+    gap: 50px;
+}
+ul li {
+    position: relative;
+    list-style: none;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+}
+ul li::before {
+    content: '';
+    position: absolute;
+    inset: 30px;
+    box-shadow: 0 0 0 10px var(--clr),
+                0 0 0 20px var(--bg),
+                0 0 0 22px var(--clr);
+    transition: 0.5s;
+}
+ul li:hover::before{
+    inset: 15px;
+
+}
+ul li::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--bg);
+    transform: rotate(45deg);
+    transition: 0.5s;
+}
+ul li:hover::after {
+    transform: rotate(0deg);
+}
+ul li a {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+ul li a img {
+    font-size: 0.9em;
+    color: #f9f3f2;
+    transition: 0.5s;
+}
+ul li:hover a img{
+    transform: translateY(-150%);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

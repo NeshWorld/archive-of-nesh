@@ -1,0 +1,1063 @@
+[
+    {
+        "id":"arc-electrique",
+        "name":"Arc électrique",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"bouclier",
+        "name":"Bouclier",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id": "bouffee-de-poison",
+        "name": "Bouffée de poison",
+        "rang": 0,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"chimere",
+        "name":"Chimère",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"convocation-dinstrument",
+        "name":"convocation d'instrument",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"detection-de-la-magie",
+        "name":"Détection de la magie",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"eboulis",
+        "name":"Éboulis",
+        "rang": 0,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"enflammer",
+        "name":"Enflammer",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"explosion-caustique",
+        "name":"Explosion caustique",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"filament-electrique",
+        "name":"Filament électrique",
+        "rang": 0,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"gelure",
+        "name":"Gelure",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"griffe-lacerante",
+        "name":"Griffe lacérante",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"hebetement",
+        "name":"Hébètement",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"hymne-discordant",
+        "name":"Hymne discordant",
+        "rang":0,
+        "tradition":["Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"jet-deau",
+        "name":"Jet d'eau",
+        "rang": 0,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"lecture-de-laura",
+        "name":"Lecture ded l'aura",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"lumiere",
+        "name":"Lumière",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"main-telekinetique",
+        "name":"Main télékinétique",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"message",
+        "name":"Message",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"perversion-du-neant",
+        "name":"Perversion du Néant",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"piege-de-liane",
+        "name":"Piège de liane",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"porte-voix",
+        "name":"Porte-voix",
+        "rang": 0,
+        "tradition":["Arcanique","Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"prestidigitation",
+        "name":"Prestidigitation",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"projectile-telekinettique",
+        "name":"Projectile magique",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"symbole",
+        "name":"Symbole",
+        "rang": 0,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"tourbillon-dair",
+        "name":"Tourbillon d'air",
+        "rang": 0,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"affaiblissement",
+        "name":"Affaiblissement",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"alarme",
+        "name":"Alarme",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"arbre-protecteur",
+        "name":"Arbre protecteur",
+        "rang": 1,
+        "tradition":["Primordial"],
+        "traits":["Bois","Concentration","Manipulation","Plante"],
+        "actions":"◆◆",
+        "portee":"9 m",
+        "duree":"1 min",
+        "description":[
+            "Un arbre de taille Moyenne pousse soudainement dans une case inoccupée à portée. L’arbre a une CA de 10 et 10 points de vie. Chaque fois qu’un allié adjacent à l’arbre est touché par une Frappe, l’arbre interpose ses branches et subit en premier les dégâts. Tous les dégâts supplémentaires après avoir réduit les PV de l’arbre à 0 affectent la cible d’origine. L’arbre n’est pas assez grand pour faire obstacle aux déplacements dans sa case.",
+            "Si l’arbre est en terre et qu’il survit jusqu’à la fin de la durée du sort, il devient un arbre ordinaire non magique et continue de pousser. Le MJ peut décréter que l’arbre disparaît immédiatement dans certaines situations inhospitalières."
+        ],
+        "intensifie":[{
+            "niveau_intensifie":"+1",
+            "effet_intensifie":"L'arbre a 10 PV supplémentaire"
+        }],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"arme-runique",
+        "name":"Arme runique",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+
+        "id":"armure-mystique",
+        "name":"Armure mystique",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"atterissage-en-doucueur",
+        "name":"Atterissage en doucer",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"barrage-de-force",
+        "name":"Barrage de force",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"bourbier",
+        "name":"Bourbier",
+        "rang": 1,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"bourrasque",
+        "name":"Bourrasque",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"bulle-dair",
+        "name":"Bulle d'air",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"cachette-animale",
+        "name":"Cachette animale",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"cadeau-attentionne",
+        "name":"Cadeau attentionné",
+        "rang": 1,
+        "tradition":["Arcanique","Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"charge-de-fourmi",
+        "name":"Charge de fourmi",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"charme",
+        "name":"Charme",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"consonance-fatale",
+        "name":"Consonance fatale",
+        "rang": 1,
+        "tradition":["Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"convocation-danimal",
+        "name":"Convocation d'animal",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"convocation-de-creature-artificielle",
+        "name":"Convocation de créature artificielle",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"convocation-de-mort-vivant",
+        "name":"Convocation de mort-vivant",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"convocation-de-serviteur-inferieur",
+        "name":"Convocation de serviteur inférieur",
+        "rang": 1,
+        "tradition":["Divin"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"couleurs-etourdissantes",
+        "name":"Couleurs étourdissantes",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"coup-de-tonnerre",
+        "name":"Coup de tonnerre",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"creation-deau",
+        "name":"Création d'eau",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"deja-vu",
+        "name":"Déjà vu",
+        "rang": 1,
+        "tradition":["Arcanique","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"deguisement",
+        "name":"Déguisement",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"eboulement-fracassant",
+        "name":"Eboulement fracassant",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"empreinte-falsifiee",
+        "name":"Empreinte falsifiée",
+        "rang": 1,
+        "tradition":["Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"facade",
+        "name":"Façade",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"forme-de-nuisible",
+        "name":"Forme de nuisible",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"frappe-infaillible",
+        "name":"Frappe infaillible",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"graisse",
+        "name":"Graisse",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"injonction",
+        "name":"Injonction",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"joie-maligne",
+        "name":"Joie maligne",
+        "rang": 1,
+        "tradition":["Arcanique","Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"lecture-dobjet",
+        "name":"Lecture d'objet",
+        "rang": 1,
+        "tradition":["Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"lien-mental",
+        "name":"Lien mental",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"magie-camouflee",
+        "nname":"Magie camouflée",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+
+        "id":"morsure-daraignee",
+        "name":"Morsure d'araignée",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"objet-illusoire",
+        "name":"Objet illusoire",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"objet-invisible",
+        "name":"Objet invisible",
+        "rang": 1,
+        "tradition":["Arcanique","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"pas-lourds",
+        "name":"Pas lourds",
+        "rang": 1,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"pas-rapide",
+        "name":"Pas rapide",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"porteur",
+        "name":"Porteur",
+        "rang": 1,
+        "tradition":["Arcanique","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"pousee-hydraulique",
+        "name":"Poussée hydralique",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"projections-glacees",
+        "name":"Projections glacées",
+        "rang": 1,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"reparation",
+        "name":"Réparation",
+        "rang": 1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"runes-corporelles",
+        "name":"Runes corporelles",
+        "rang":1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"saut",
+        "name":"Sat",
+        "rang":1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"sbire-fantasmatique",
+        "name":"Sbire fantasmatique",
+        "rang":1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"sinistres-volutes",
+        "name":"Sinistres volutes",
+        "rang":1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"sommeil",
+        "name":"Sommeil",
+        "rang":1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"souffler-du-feu",
+        "name":"Soufflerr du feu",
+        "rang":1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"terreur",
+        "name":"Terreur",
+        "rang":1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"vapeurs-toxiques",
+        "name":"Vapeurs toxiques",
+        "rang": 1,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"variole-gobeline",
+        "name":"Variole gobeline",
+        "rang":1,
+        "tradition":["Arcanique"],
+        "source":"Player Core"
+    },
+    {
+        "id":"vent-en-poupe"
+    },
+    {
+        "id":"ventriloquie"
+    },
+    {
+        "id":"verrouillage"
+    },
+    {
+        "id":"attaque-dobjets-animes",
+        "name":"Attaque d'objets animés",
+        "rang": 2,
+        "tradition":["Arcanique","Occulte"],
+        "traits":["Concentration","Manipulation"],
+        "actions":"◆◆",
+        "portee":"36 m",
+        "zone_effet":"explosion 3 m",
+        "defense":"Réflexes basique",
+        "duree":"maintenu jusqu'à 1 min",
+        "description":["Vous utilisez votre esprit pour manipuler des objets non portés dans la zone en les animant temporairement pour qu’ils attaquent. Les objets s’élèvent dans les airs, puis se jettent sur les créatures proches dans un déluge de débris. Cet assaut inflige 2d10 dégâts contondants (jet de Réflexes basique) à chaque créature dans la zone. Aux rounds suivants, la première fois chaque round que vous Maintenez ce sort, il inflige 1d10 dégâts contondants ( jet de Réflexes basique) à chaque créature dans la zone."],
+        "intensifie":[{
+            "niveau_intensifie":"+2",
+            "effet_intensifie":"Les dégâts initiaux augmentent de 2d10 et les dégâts sivant de 1d10."
+        }],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"charite-irrepressible",
+        "name":"Charité irrépressible",
+        "rang": 2,
+        "tradition":["Arcanique","Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"desassemblage",
+        "name":"Désassemblage",
+        "rang": 2,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"desirs-macabres",
+        "name":"Désirs macabres",
+        "rang": 2,
+        "tradition":["Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"fleau-soudain",
+        "name":"Fléau soudain",
+        "rang": 2,
+        "tradition":["Divin","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"infestation-fongique",
+        "name":"Infesatation fongique",
+        "rang": 2,
+        "tradition":["Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"invective-arente",
+        "name":"Invective ardente",
+        "rang": 2,
+        "tradition":["Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"lanterne-de-la-faucheuse",
+        "name":"Lanterne de la Faucheuse",
+        "rang": 2,
+        "tradition":["Divin","Occulte","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"perception-des-esprits",
+        "name":"Perception des esprits",
+        "rang": 2,
+        "tradition":["Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"sacrifice-ultime",
+        "name":"Sacrifice ultime",
+        "rang": 2,
+        "tradition":["Arcanique","Divin","Occulte","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"toile-daraignee",
+        "name":"Toile d'araignée",
+        "rang": 2,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"tresor-fantasmatique",
+        "name":"Trésor fantasmatique",
+        "rang": 2,
+        "tradition":["Arcanique","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"vomissement-de-nuee",
+        "name":"Vomissement de nuée",
+        "rang": 2,
+        "tradition":["Arcanique","Occulte","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"eveil-des-squelettes",
+        "name":"Éveil des squelettes",
+        "rang": 3,
+        "tradition":["Arcanique","Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {  
+        "id":"guide-du-pelerin",
+        "name":"Guide du pèlerin",
+        "rang": 3,
+        "tradition":["Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"invisibilite-partagee",
+        "name":"Invisibilité partagée",
+        "rang": 3,
+        "tradition":["Arcanique","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"malediction-du-temps",
+        "name":"Malédiction du temps",
+        "rang": 3,
+        "tradition":["Arcanique","Occulte","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"puits-gravitationnel",
+        "name":"Puits gravitationnel",
+        "rang": 3,
+        "tradition":["Arcanique","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"retrecir-un-objet",
+        "name":"Rétrécir un objet",
+        "rang": 3,
+        "tradition":["Arcanique"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"terre-ointe",
+        "name":"Terre ointe",
+        "rang": 3,
+        "tradition":["Divin"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"triple-aspect",
+        "name":"Triple aspect",
+        "rang": 3,
+        "tradition":["Occulte","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"vague-deferlante",
+        "name":"Vague déferlante",
+        "rang": 3,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"visage-familier",
+        "name":"Visage familier",
+        "rang": 3,
+        "tradition":["Arcanique","Divin","Occulte","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"vision-animale",
+        "name":"Vision animale",
+        "rang": 3,
+        "tradition":["Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"cascade-benite",
+        "name":"Cascade bénite",
+        "rang": 4,
+        "tradition":["Divin"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"confinement",
+        "name":"Confinement",
+        "rang": 4,
+        "tradition":["Arcanique","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"drainage-chromatique",
+        "name":"Drainage chromatique",
+        "rang": 4,
+        "tradition":["Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"malediction-bestiale",
+        "name":"Malédiction bestiale",
+        "rang": 4,
+        "tradition":["Arcanique","Occulte","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"murmures-du-neant",
+        "name":"Murmures du Néant",
+        "rang": 4,
+        "tradition":["Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"myriade-dyeux",
+        "name":"Myriade d'yeux",
+        "rang": 4,
+        "tradition":["Arcanique","Occulte","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"perte-dambition",
+        "name":"Perte d'ambition",
+        "rang": 4,
+        "tradition":["Arcanique","Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"sceau-du-destin",
+        "name":"Sceau du destin",
+        "rang": 4,
+        "tradition":["Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"tempete-de-glace",
+        "name":"Tempête de glace",
+        "rang": 4,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"tragedie-fantomatique",
+        "name":"Tragédie fantomatique",
+        "rang": 4,
+        "tradition":["Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"vierge-vampirique",
+        "name":"Vierge vampirique",
+        "rang": 4,
+        "tradition":["Arcanique","Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"boite-imaginaire",
+        "name":"Boîte imaginaire",
+        "rang": 5,
+        "tradition":["Arcanique","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"boue-corrosive",
+        "name":"Boue corrosive",
+        "rang": 5,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"cape-coloree",
+        "name":"Cape colorée",
+        "rang": 5,
+        "tradition":["Arcanique","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"cloques",
+        "name":"Cloques",
+        "rang": 5,
+        "tradition":["Arcanique","Occulte","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"excroissances-ecoeurantes",
+        "name":"Excroissances écœurantes",
+        "rang": 5,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"geometrie-deconcertante",
+        "name":"Géométrie déconcertante",
+        "rang": 5,
+        "tradition":["Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"mur-de-chair",
+        "name":"Mur de chair",
+        "rang": 5,
+        "tradition":["Divin","Occulte","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"peau-de-cameleon",
+        "name":"Peau de caméléon",
+        "rang": 5,
+        "tradition":["Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"raide-mort",
+        "name":"Raide mort",
+        "rang": 5,
+        "tradition":["Arcanique","Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"synesthesie",
+        "name":"Synesthésie",
+        "rang": 5,
+        "tradition":["Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"tempete-declairs",
+        "name":"Tempête d'éclairs",
+        "rang": 5,
+        "tradition":["Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"barriere-etincelante",
+        "name":"Barrière étincelante",
+        "rang": 6,
+        "tradition":["Divin","Occulte","Primordial"],
+        "traits":["Manipulation"],
+        "actions":"↩",
+        "declencheur":"Un effet devrait infliger des dégâts physiques ou d’énergie à vous ou une créature à portée.",
+        "portee":"9 m",
+        "cible":"jusqu’à 5 créatures consentantes qui devraient être blessées par l’effet déclencheur. Une barrière magique étincelante enveloppe",
+        "description":[
+            "Une barrière magique étincelante enveloppe chaque cible, les protégeant de l’effet déclencheur. Choisissez un type de dégâts physiques ou d’énergie infligés par l’effet déclencheur. Chaque cible gagne une résistance 10 contre ce type de dégâts infligés par l’effet déclencheur.",
+            "La résistance s’applique uniquement aux dégâts initiaux, pas aux dégâts persistants ou aux autres effets durables."
+        ],
+        "intensifie":[{
+            "niveau_intensifie":"+1",
+            "effet_intensifie":"La résistance augmente de 1"
+        }],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"couverture-stellaire",
+        "name":"Couverture stellaire",
+        "rang": 6,
+        "tradition":["Occulte","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"forme-sacree",
+        "name":"Forme sacrée",
+        "rang": 6,
+        "tradition":["Divin"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"furie-aveugle",
+        "name":"Furie aveugle",
+        "rang": 6,
+        "tradition":["Divin","Occulte","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"transposition-collective",
+        "name":"Transposition collective",
+        "rang": 6,
+        "tradition":["Arcanique","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"cage-de-bois-vital",
+        "name":"Cage de bois vital",
+        "rang": 7,
+        "tradition":["Arcanique","Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"dangereuses-visions",
+        "name":"Dangereuses visions",
+        "rang": 7,
+        "tradition":["Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"riposte-de-sort",
+        "name":"Riposte de sort",
+        "rang": 7,
+        "tradition":["Arcanique","Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"chant-spirituel",
+        "name":"Chant spirituel",
+        "rang": 8,
+        "tradition":["Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"conseil-onirique",
+        "name":"Conseil onirique",
+        "rang": 8,
+        "tradition":["Arcanique","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"couleurs-deroutantes",
+        "name":"Couleurs déroutantes",
+        "rang": 8,
+        "tradition":["Arcanique","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"epidemie-spirituelle",
+        "name":"Epidémie spirituelle",
+        "rang": 8,
+        "tradition":["Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"arme-du-jugement",
+        "name":"Arme du jugement",
+        "rang": 9,
+        "tradition":["Divin"],
+        "traits":["Concentration","Esprit","Manipulation","Sanctifié"],
+        "actions":"◆◆",
+        "conditions":"Vous vénérez une divinité",
+        "portee":"30 m",
+        "cible":[{
+            "nombre_cible": 1,
+            "cible_type":"créature"
+        }],
+        "durée":"1 min",
+        "description":[
+            "Une immense arme de force apparaît, lévitant dans les airs au‑dessus de la cible. L’arme a l’apparence visuelle fantomatique de l’arme de prédilection de votre divinité. Nommez guerre ou paix quand vous lancez ce sort.",
+            "Si vous nommez « guerre », choisissez mentalement une créature. Il doit s’agir d’une créature que vous et la cible pouvez voir. La cible sait instinctivement de quelle créature il s’agit. À la fin de chacun des tours de la cible, si celle‑ci n’a pas utilisé d’action hostile contre la créature choisie pendant ce tour, l’arme Frappe la cible.",
+            "Si vous nommez « paix », choisissez mentalement jusqu’à cinq alliés. La cible sait instinctivement qui sont ces alliés. L’arme Frappe la cible chaque fois qu’elle utilise une action hostile contre vous ou l’un de vos alliés. L’arme Frappe seulement une fois par action, même si l’action cible plusieurs alliés (comme avec une boule de feu ou une Frappe tourbillonnante).",
+            "Les Frappes de l’arme sont des attaques d’arme de corps à corps, mais elles utilisent votre modificateur d’attaque de sort. Quel que soit son aspect, l’arme inflige 4d10 dégâts. Le type des dégâts est le même que celui de l’arme choisie (ou n’importe lequel de ses types pour une arme polyvalente). L’attaque inflige des dégâts d’esprit à la place si ce type est plus préjudiciable à la créature (déterminé par le MJ). Aucun autre attribut ou statistique de l’arme ne s’applique, et même une arme à distance n’attaque que les créatures adjacentes. L’arme subit un malus d’attaques multiples qui augmente tout au long du tour de la cible, mais son malus est distinct du vôtre.",
+            "Une arme de jugement est une arme en ce qui concerne les déclencheurs, les résistances, etc. L’arme n’occupe pas d’espace, n’accorde pas la prise en tenaille et n’a aucun autre attribut qu’une créature posséderait. L’arme ne peut effectuer aucune action autre que sa Frappe, et les dons et sorts qui affectent les armes ne s’appliquent pas à elle."
+        ],
+        "intensifie":[{
+            "rang_intensifie":"10 ème",
+            "effet_intensifie":"Les dégâts de force augmentent de 1d10."
+        }],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"hostilite-naturelle",
+        "name":"Hostilité naturelle",
+        "rang": 9,
+        "tradition":["Primordial"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"manoir-resplendissant",
+        "name":"Manoir resplendissant",
+        "rang": 9,
+        "tradition":["Arcanique","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"ordre-telepathique",
+        "name":"Ordre télépathique",
+        "rang": 9,
+        "tradition":["Arcanique","Divin","Occulte"],
+        "source":"Player Core 2"
+    },
+    {
+        "id":"troupeau-primitif",
+        "name":"Troupeau primitif",
+        "rang": 10,
+        "tradition":["Primordial"],
+        "source":"Player Core 2"
+    }
+]
